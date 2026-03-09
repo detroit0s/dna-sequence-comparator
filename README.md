@@ -1,10 +1,6 @@
 # dna-sequence-comparator
 
-> 🇫🇷 Version française ci-dessous | 🇬🇧 English version below
-
----
-
-## 🇬🇧 English
+## English
 
 ### DNA Sequence Comparator
 
@@ -12,7 +8,7 @@ A command-line tool that compares two DNA sequences in FASTA format and outputs 
 
 ---
 
-### 📁 File Structure
+### File Structure
 
 ```
 .
@@ -28,7 +24,7 @@ A command-line tool that compares two DNA sequences in FASTA format and outputs 
 
 ---
 
-### ⚙️ How to Compile & Run
+### How to Compile & Run
 
 #### C++
 
@@ -55,7 +51,7 @@ python compare_strings.py path/to/reference.fasta path/to/sequence.fasta path/to
 
 ---
 
-### 📋 Examples
+### Examples
 
 **reference.fasta**
 ```
@@ -79,7 +75,7 @@ Each line represents a substitution: `sequence_name, position (0-indexed), ref_b
 
 ---
 
-### ❌ Error Handling
+### Error Handling
 
 The program handles the following error cases and prints an explicit message to `stderr`:
 - File not found or unreadable
@@ -90,7 +86,7 @@ The program handles the following error cases and prints an explicit message to 
 
 ---
 
-### 🔧 Compilation Flags
+### Compilation Flags
 
 ```
 -std=c++17 -Wall -Wextra -Wpedantic -D_GNU_SOURCE -Werror=all -O2
@@ -99,7 +95,7 @@ The program handles the following error cases and prints an explicit message to 
 ---
 ---
 
-## 🇫🇷 Français
+## Français
 
 ### Comparateur de séquences ADN
 
@@ -107,7 +103,7 @@ Un outil en ligne de commande qui compare deux séquences d'ADN au format FASTA 
 
 ---
 
-### 📁 Structure des fichiers
+### Structure des fichiers
 
 ```
 .
@@ -123,7 +119,7 @@ Un outil en ligne de commande qui compare deux séquences d'ADN au format FASTA 
 
 ---
 
-### ⚙️ Compilation et exécution
+### Compilation et exécution
 
 #### C++
 
@@ -150,7 +146,7 @@ python compare_strings.py chemin/vers/reference.fasta chemin/vers/sequence.fasta
 
 ---
 
-### 📋 Exemples
+### Exemples
 
 **reference.fasta**
 ```
@@ -174,7 +170,7 @@ Chaque ligne représente une substitution : `nom_séquence, position (index à p
 
 ---
 
-### ❌ Gestion des erreurs
+### Gestion des erreurs
 
 Le programme gère les cas d'erreur suivants et affiche un message explicite sur `stderr` :
 - Fichier introuvable ou illisible
@@ -185,7 +181,7 @@ Le programme gère les cas d'erreur suivants et affiche un message explicite sur
 
 ---
 
-### 🔧 Options de compilation
+### Options de compilation
 
 ```
 -std=c++17 -Wall -Wextra -Wpedantic -D_GNU_SOURCE -Werror=all -O2
